@@ -4,11 +4,12 @@ Welcome to the Monkey Interpreter project! This interpreter is designed to execu
 
 ## Features
 
-- **Primitive Data Types**: Supports `int`, `boolean`, and `string`.
+- **Primitive Data Types**: Supports `int`, `boolean`, `string`, `arrays` and `hash`.
 - **Conditional Statements**: Includes support for `if-else` statements.
 - **Functions**: Allows the definition and execution of functions.
 - **Closures**: Supports closures for more advanced function usage.
 - **Higher-Order Functions**: Functions can accept other functions as arguments and return them as results.
+- **Built-In Functions**: Such as `len`, `first`, `last`, `rest`, and `puts`
 
 ## Getting Started
 
@@ -35,7 +36,11 @@ To get started with the Monkey Interpreter, follow these steps:
 
 You can write Monkey programs and execute them using the interpreter. Here is an example of a simple Monkey program:
 
-```monkey
+
+
+```
+puts("Hello World!")
+
 let add = fn(a, b) {
   return a + b;
 };
