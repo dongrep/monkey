@@ -25,7 +25,7 @@ To get started with the Monkey Interpreter, follow these steps:
   ```
 3. Build the project (if applicable):
   ```sh
-  make build
+  go build -o monkey main.go
   ```
 4. Run the interpreter:
   ```sh
